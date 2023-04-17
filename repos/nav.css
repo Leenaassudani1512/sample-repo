@@ -1,0 +1,25 @@
+﻿.navbar {
+    background-color: indianred;
+    border-radius:6px;/* side line in cuve*/
+}
+.navbar li {
+  list-style: none;
+  float:left;
+  margin:13px 20px;
+}
+    .navbar ul {
+        overflow:auto;
+    }
+
+    .navbar a {
+        padding: 3px 3px;
+        text-decoration: none;
+        cursor: pointer;
+        color: aliceblue;
+        font-size-adjust:revert;
+    }
+.search {
+    float:right;
+    color:snow;
+    padding:10px 9px;
+}

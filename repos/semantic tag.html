@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title> navigation menu</title>
+    <style>
+            .navbar {
+            background-color: indianred;
+            border-radius: 16px; /* side line in cuve*/
+            }
+
+            .navbar li {
+                list-style: none;
+                float: left;
+                margin: 13px 20px;
+            }
+
+            .navbar ul {
+                overflow: auto;
+            }
+
+            .navbar li a {
+                padding: 3px 3px;
+                text-decoration: none;
+                cursor: pointer;
+                color:indigo;
+            }
+           
+            .search {
+            float: right;
+            color: snow;
+            padding: 1px 1px;
+            }
+        .navbar input {
+            border:2px solid #4cff00;
+            border-radius: 10px;
+            padding:3px 6px;
+            width:190px;
+        }
+
+        .navbar li a:hover {
+            color:mediumturquoise;
+            background-color:firebrick;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li> <a href=" https://www2.hm.com/en_in/home.html">Home </a> </li>
+                <li> <a href=" https://www2.hm.com/en_in/home.html"> Services </a> </li>
+                <li> <a href=" https://www2.hm.com/en_in/home.html">Customer Sevice </a> </li>
+                <li> <a href=" https://www2.hm.com/en_in/home.html">Find a Store </a> </li>
+                <li> <a href=" https://www2.hm.com/en_in/home.html"> Contact Us </a> </li>
+                <div class="search">
+                    <input type="search"  name="search" id="search" placeholder="search the website">
+                </div>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>

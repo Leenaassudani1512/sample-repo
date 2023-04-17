@@ -1,0 +1,31 @@
+﻿/*star means to change the default browser space-- > */
+* {
+    margin: 0;
+    padding: 0;
+}
+.my-sty {
+    background-color: brown;
+    color: honeydew;
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /*margin means that to give space to the browser*/
+    /*if we write margin only it means all the margin are that onlu then no need of writing left right up down*/
+    margin:10%;
+    display:none;/*nothing will be displayed */
+    display :block;
+}
+.m-sty {
+    background-color: brown;
+    color: honeydew;
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /*margin means that to give space to the browser*/
+    /*if we write margin only it means all the margin are that onlu then no need of writing left right up down*/
+    margin-left:10%;
+    margin-right:10%
+}
+

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "htmldev", "htmldev\htmldev.vcxproj", "{89EDA400-0E3F-464E-AE53-F32DF7ADA951}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89EDA400-0E3F-464E-AE53-F32DF7ADA951}.Debug|x64.ActiveCfg = Debug|x64
+		{89EDA400-0E3F-464E-AE53-F32DF7ADA951}.Debug|x64.Build.0 = Debug|x64
+		{89EDA400-0E3F-464E-AE53-F32DF7ADA951}.Debug|x86.ActiveCfg = Debug|Win32
+		{89EDA400-0E3F-464E-AE53-F32DF7ADA951}.Debug|x86.Build.0 = Debug|Win32
+		{89EDA400-0E3F-464E-AE53-F32DF7ADA951}.Release|x64.ActiveCfg = Release|x64
+		{89EDA400-0E3F-464E-AE53-F32DF7ADA951}.Release|x64.Build.0 = Release|x64
+		{89EDA400-0E3F-464E-AE53-F32DF7ADA951}.Release|x86.ActiveCfg = Release|Win32
+		{89EDA400-0E3F-464E-AE53-F32DF7ADA951}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {081B0BEA-CFA1-4761-8E03-26595488CF5B}
+	EndGlobalSection
+EndGlobal

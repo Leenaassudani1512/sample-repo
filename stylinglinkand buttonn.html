@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name ="viewport" content="width=device-width" , initial-scale="1.0" />
+    <title> styling link and borders</title>
+    <style>
+        body {
+            background-color: #F9F8EB; /* body bgd color */
+        }
+        .leena {
+            background-color: #A7D7C5;
+            width: 700px; 
+            padding: 20px;
+            margin-top: 200px;
+            border: solid;
+            border-color: #5C8D89;
+            border-width: 3px;
+            margin-left: 350px;
+        }
+        a { /* it is for the decoration of the anchor tag */
+            text-decoration: blink;
+            color: lightcoral;
+        }
+
+            a:hover {
+                color: #41644A; /* it changes the text color on hover*/
+                border: solid 2px; /* whn we hover on it then border will appear ard it*/
+                background-color: #F0F0F0; /* it changes the bgd color on hover*/
+            }
+
+        a:visited {
+                background-color;/* anchor tag which contain link color */
+        }
+
+        a:active{
+            background-color:greenyellow;/* when we click on anchor button then color will change to */
+
+        }
+
+        .button { /* it is for the decoration of the anchor tag */
+            text-decoration: blink;
+            color: lightcoral;
+            padding: 1px;
+            border: none;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        button:hover {
+            color: #41644A; /* it changes the text color on hover*/
+            background-color: #F0F0F0; /* it changes the bgd color on hover*/
+            border: solid 2px; /* whn we hover on it then border will appear ard it*/   
+        }
+
+
+        .leena1 {
+            background-color: #DEF5E5;
+            color: #3A8891; 
+            padding: 2px;
+            border: none;
+            cursor: pointer;/* whwn the cursor is placed on it then it will */
+            font-size: 13px;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="leena" id="lee">
+        <h1>styling link and borders</h1>
+        <p> When styling links, it's important to understand how to make use of pseudo-classes to style their states effectively. It's also important to know how to style links for use in common interface features whose content varies, such as navigation menus and tabs. We'll look at both these topics in this article.</p>
+        <a href="https://www.tutorialspoint.com/Create-a-link-button-with-borders-using-CSS" target="_blank" class="leena1"> read more</a><!--target for opening the website in new tab-->
+        <button type="button" class="button">Success</button>
+    </div>
+
+</body>
+</html>`

@@ -1,0 +1,20 @@
+﻿*{
+    margin:0;
+    padding:0;
+}
+.parent {
+    position : relative;/* we are deciding the position of the child with respect to the child*/
+    background-color: #867070;
+    width: 100px;
+    height: 100px;
+}
+.child {
+    background-color: #E4D0D0;
+    position:absolute;/*we are deciding the absolute position of the entire child element*/
+    width: 20px;
+    height: 20px;  
+    display:inline-block;
+    top:0;
+    right:0;
+    margin-bottom:11px;   
+}   
